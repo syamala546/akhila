@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: tripwise
+    runtime: node
+    buildCommand: npm install && npm run install-all && npm run build
+    startCommand: npm start
